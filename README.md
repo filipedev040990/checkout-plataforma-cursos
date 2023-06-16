@@ -5,6 +5,10 @@ Quando este pagamento for processado, o cliente receberá os dados de acesso ao 
 Este repositório não contém o projeto, mas sim informações e link dos repositórios com os microserviços que o compoõem.<br>
 Aqui também contém um docker-compose com a configuração de todos os containers necessários para a execução do projeto.
 
+## Fluxo do Projeto
+![image](https://github.com/filipedev040990/checkout-plataforma-cursos/assets/106783314/c78327bd-c8f1-4f4f-b5cf-409447c51468)
+
+
 ## 📉 Microserviço de Marketing
 
 Este microserviço cadastra dados do lead e após o pagamento o converte para cliente. A confirmação do pagamento é monitorada consumindo uma fila do RabbitMq. Ele também monitora leads que iniciaram o cadastro mas não concluíram
