@@ -1,8 +1,8 @@
-# Checkout plataforma de cursos
+# Checkout plataforma de cursos (Em desenvolvimento)
 
 O intuito deste projeto é simular um ambiente de checkout, onde o cliente faz um cadastro e faz um "pagamento".<br>
-Quando este pagamento for processado, o cliente receberá os dados de acesso ao portal email seu e-mail. <br>
-Este repositório não contém o projeto, mas sim informações e link dos repositórios com os microserviços que o compoõem.<br>
+Quando este pagamento for processado, o cliente receberá os dados de acesso ao portal em seu e-mail. <br>
+Este repositório não contém o projeto, mas sim informações e link dos repositórios com os microserviços que o compõem.<br>
 Aqui também contém um docker-compose com a configuração de todos os containers necessários para a execução do projeto.
 
 ## Fluxo do Projeto
