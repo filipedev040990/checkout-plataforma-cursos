@@ -35,3 +35,8 @@ Você pode clonar este projeto através deste [link](https://github.com/filipede
 
 Este microserviço consome uma fila de notificações e dispara e-mails.
 Você pode clonar este projeto através deste [link](https://github.com/filipedev040990/notification-microsservice)
+
+## 🐰 RabbitMq
+
+Nossos microserviços se comunicarão através de mensageria. Para isso usaremos o rabbitmq. Ele já está configurado para criar as Exchanges e filas e fazer os binds ao subir o container.
+Você pode clonar este projeto através deste [link](https://github.com/filipedev040990/rabbitmq)
