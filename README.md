@@ -17,7 +17,7 @@ Você pode clonar este projeto através deste [link](https://github.com/filipede
 
 ## 💸 Microserviço Financeiro
 
-Este microserviço cadastra dados do cliente e da cobrança. Em seguida publica este pagamento em uma fila para que seja processado posteriormente. Após confirmação do pagamento que é monitorada consumindo uma fila do RabbitMq, ele atualiza os dados financeiros e novamente publica os dados em outra fila que será consumida por outros microserviços.<br>
+Este microserviço cadastra dados do cliente e da cobrança. Em seguida publica este pagamento em uma fila para que seja processado posteriormente. Após confirmação do pagamento que é monitorada consumindo uma fila do RabbitMq, ele atualiza os dados financeiros e novamente publica os dados em outra fila que será consumida por outros microserviços.<br> Em caso de falha na cobrança, será publicado uma mensagem em uma fila para o microserviço de notificação enviar um e-mail para o pagador.
 Você pode clonar este projeto através deste [link](https://github.com/filipedev040990/financial-microsservice)
 
 ## 💳 Microserviço de Pagamento
