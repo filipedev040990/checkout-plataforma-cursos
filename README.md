@@ -25,6 +25,11 @@ Você pode clonar este projeto através deste [link](https://github.com/filipede
 Este microserviço consome uma fila de pagamentos que estão aguardando processamento. Na sequência, publica o resultado em uma fila de pagamentos processados que será lida por outros microserviços.
 Você pode clonar este projeto através deste [link](https://github.com/filipedev040990/payment-microsservice)
 
+## 💳 Microserviço Card Encryptor
+
+Este microserviço recebe dados de cartão de crédito e o salva criptografado no banco de dados para posteriormente fornecê-lo ao microserviço de pagamento. Após o microserviço de pagamento utilizá-lo para a cobrança, estes dados são eliminados.
+Você pode clonar este projeto através deste [link](https://github.com/filipedev040990/card-encryptor-microsservice)
+
 ## 📓 Microserviço Acadêmico
 
 Este microserviço consome uma fila de pagamentos processados e caso tenha sido aprovado, irá criar um registro acadêmico do aluno e seus dados de acesso à plataforma. Na sequência, publica estes dados em uma fila de notificação que será lida por outro microserviço.
