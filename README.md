@@ -6,7 +6,8 @@ Este repositório não contém o projeto, mas sim informações e link dos repos
 Aqui também contém um docker-compose com a configuração de todos os containers necessários para a execução do projeto.
 
 ## Fluxo do Projeto
-![image](https://github.com/filipedev040990/checkout-plataforma-cursos/assets/106783314/c78327bd-c8f1-4f4f-b5cf-409447c51468)
+![Fluxo-Portal-Cursos](https://github.com/filipedev040990/checkout-plataforma-cursos/assets/106783314/c2aa4b82-81b2-4364-bd83-35c8b3b9030a)
+
 
 
 ## 📉 Microserviço de Marketing
